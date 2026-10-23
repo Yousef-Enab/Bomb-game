@@ -1,0 +1,15 @@
+{
+  "name": "bomb-game",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "sprites": "python3 tools/make_sprites.py",
+    "e2e": "python3 tools/e2e_browser.py"
+  }
+}
